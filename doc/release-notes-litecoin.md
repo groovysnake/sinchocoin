@@ -119,7 +119,7 @@ Wallet changes
 When creating a transaction with a fee above `-maxtxfee` (default 0.1 SCHO),
 the RPC commands `walletcreatefundedpsbt` and  `fundrawtransaction` will now fail
 instead of rounding down the fee. Beware that the `feeRate` argument is specified
-in SCHO per kilobyte, not litoshi per byte.
+in SCHO per kilobyte, not sniffs per byte.
 
 Documentation
 -------------
